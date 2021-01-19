@@ -1,0 +1,242 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+    
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.site-header {
+    background: #2d353d;
+    padding: 20px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.site-main {
+    display: flex;
+    flex: 1;
+    background: #efeae5;
+}
+
+.site-navbar {
+    background: #2d353d;
+    width: 60px;
+}
+
+.site-footer {
+    display: flex;
+    background: #2d353d;
+    padding: 20px 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-copy {
+    color: #76838f;
+}
+
+.social .icon {
+    margin-left: 5px;
+}
+
+.menu {
+    position: fixed;
+    background: #2d353d;
+}
+
+.menu .menu-item span {
+    display: none;
+}
+
+.menu:hover .menu-item span {
+    display: inline;
+}
+
+.menu-item {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+    align-items: center;
+}
+
+.menu-item:hover {
+    background: #36474f;
+}
+
+.menu-item span {
+    margin-left: 15px;
+}
+
+.page {
+    flex: 1;
+    display: none;
+}
+
+.page:target {
+    display: block;
+}
+
+.page#main {
+    display: block;
+}
+
+.page:target ~ .page#main {
+    display: none;
+}
+
+.page-header {
+    background-image: url(../img/background.jpg);
+    height: 250px;
+}
+
+.page-header p {
+    margin: 0;
+    padding: 0 50px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.page-heading {
+    margin: 0;
+    color: #feea8b;
+    font-family: OpenSans;
+    font-size: 40px;
+    padding: 50px 50px;
+}
+
+.page-content {
+    padding: 20px 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    border: 5px solid #feea8b;
+    border-radius: 10px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.card-image {
+    height: 300px;
+    width: 225px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-text {
+    color: #2d353d;
+    background: rgba(254, 234, 139, 0.7);
+    padding: 10px 0;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-buttons a {
+    flex: 1;
+    text-decoration: none;
+    color: #2d353d;
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(254, 234, 139, 0.7);
+}
+
+.card-buttons a:hover {
+    background: rgba(254, 234, 139, 1);
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 40px 0 30px;
+}
+
+.picture {
+    margin: 20px;
+}
+
+.picture img {
+    height: 250px;
+    width: 335px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.picture-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    max-width: 335px;
+}
+
+.updown {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.updown .icon {
+    opacity: 0.7;
+} 
+
+.updown .icon:hover {
+    opacity: 1;
+}
+
+.updown .icon::before {
+    width: 40px;
+    height: 40px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td, .table th {
+    border: 1px #2d353d solid;
+    padding: 4px 5px;
+}
+
+.table td:nth-child(3),
+.table td:nth-child(4) {
+	text-align: center;
+}
+
+.table tbody tr:nth-child(2n + 1) {
+	background: #C6CACC;
+}
+
+.table tbody tr:hover {
+    background: #A1A4A6;
+}
+
+.form-row {
+    margin: 10px 0;
+}

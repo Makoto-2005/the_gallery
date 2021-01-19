@@ -1,0 +1,104 @@
+/*  icon color #A3AFB7
+    icon hover color #FFFFFF
+    icon social color #999999
+    icon social hover #feea8b
+    icon up/down #76838f
+*/
+
+.icon::before {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}
+
+.icon.icon-home::before {
+    background-image: url(../icon/home.svg);
+}
+
+.icon.icon-home:hover::before {
+    background-image: url(../icon/home-hover.svg);
+}
+
+.icon.icon-gallery::before {
+    background-image: url(../icon/gallery.svg);
+}
+
+.icon.icon-gallery:hover::before {
+    background-image: url(../icon/gallery-hover.svg);
+}
+
+.icon.icon-book::before {
+    background-image: url(../icon/book.svg);
+}
+
+.icon.icon-book:hover::before {
+    background-image: url(../icon/book-hover.svg);
+}
+
+.icon.icon-form::before {
+    background-image: url(../icon/form.svg);
+}
+
+.icon.icon-form:hover::before {
+    background-image: url(../icon/form-hover.svg);
+}
+
+.icon.icon-info::before {
+    background-image: url(../icon/info.svg);
+}
+
+.icon.icon-info:hover::before {
+    background-image: url(../icon/info-hover.svg);
+}
+
+.icon.icon-landing::before {
+    background-image: url(../icon/landing.svg);
+}
+
+.icon.icon-landing:hover::before {
+    background-image: url(../icon/landing-hover.svg);
+}
+
+.icon.icon-vk::before {
+    background-image: url(../icon/vk.svg);
+}
+
+.icon.icon-vk:hover::before {
+    background-image: url(../icon/vk-hover.svg);
+}
+
+.icon.icon-facebook::before {
+    background-image: url(../icon/facebook.svg);
+}
+
+.icon.icon-facebook:hover::before {
+    background-image: url(../icon/facebook-hover.svg);
+}
+
+.icon.icon-instagram::before {
+    background-image: url(../icon/instagram.svg);
+}
+
+.icon.icon-instagram:hover::before {
+    background-image: url(../icon/instagram-hover.svg);
+}
+
+.icon.icon-telegram::before {
+    background-image: url(../icon/telegram.svg);
+}
+
+.icon.icon-telegram:hover::before {
+    background-image: url(../icon/telegram-hover.svg);
+}
+
+.icon.icon-arrow-up::before {
+    background-image: url(../icon/arrow-up.svg);
+}
+
+.icon.icon-arrow-down::before {
+    background-image: url(../icon/arrow-down.svg);
+}
